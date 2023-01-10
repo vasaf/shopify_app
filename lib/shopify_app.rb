@@ -38,6 +38,7 @@ module ShopifyApp
   # controller concerns
   require 'shopify_app/controller_concerns/csrf_protection'
   require 'shopify_app/controller_concerns/localization'
+  require 'shopify_app/controller_concerns/frame_ancestors'
   require 'shopify_app/controller_concerns/itp'
   require 'shopify_app/controller_concerns/login_protection'
   require 'shopify_app/controller_concerns/embedded_app'
